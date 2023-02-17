@@ -1,0 +1,119 @@
+body {
+    
+    font-size: 32px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    min-height: 100%;
+    display: inline;
+}
+header
+{
+    
+    background-color: rgba(150, 79, 21, 0.4);
+    display: block;
+    position: fixed;
+    width: 100%;
+    
+    z-index: +1;
+}
+
+  .main-header a {
+    
+    display: inline;
+    margin-right: 1em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .main-header p {
+    color: #FFFFFF;
+  }
+    
+header > ._wrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: auto;
+    height: 80px;
+    justify-content: space-between;
+}
+header > ._wrapper > div:last-child
+{
+    display: flex;
+    gap: 10px;
+}
+header .social-links {
+    display: flex;
+}
+
+
+.btn-auth {
+    background-color: rgba(150, 79, 21, 0.4);
+    /* font-size: 1.8rem; */
+    justify-content: space-between;
+    border:1px solid rgba(150, 79, 21, 0.4);
+    color: #303030;
+    font-family: 'Raleway';
+    border-radius: 0.5rem;
+    border-width:0ch;
+    padding: .3rem 1rem;
+    margin-top: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+a {
+    margin-top: 10px;
+    display: inline;
+    margin-right: 1em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    text-decoration:none;
+  }
+
+
+.social-links a {
+    margin: 5px;
+    display: block;
+}
+.auth{
+    margin-top: 100px;
+    align-items: center;
+    padding: 10px;
+    display: center;
+    flex-direction: column;
+    border: #303030 1px;
+}
+h1{
+    font-size: 14px;
+}
+
+input{
+    height: 30px;
+    border-radius: 0.5rem;
+    border: width 1px;
+    margin-bottom: 10px;
+}
+
+#pass-btn{
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+}
+.auth > div{
+    display: flex;
+    flex-direction: column;
+}

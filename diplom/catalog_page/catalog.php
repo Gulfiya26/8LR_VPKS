@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="catalog.css" type="text/css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!-- Header -->
+    
+      <header>
+        <div class="_wrapper">
+            <div class="logo">
+                
+                    <img src="../img/logo.png" height="70px"  />
+                
+            </div>
+            <div class="main-header">
+                <p><a href="../index.php" >О нас</a></p>
+                <p><a href="../ads_page/ads_page.html" >Объявления</a></p>
+                <p><a href="catalog.php" >Каталог</a></p>
+                <p><a href="../new_ad_page/new_ad.html" >Создать объявление</a></p>
+                <p>|</p>
+                <p><a href="../aut_page/aut_page.php" >Войти</a></p>
+                </div>
+               
+            </div>
+        </div>
+        
+    </header>
+    
+    <main>
+        <section class="section section-hero">
+            <div style="background-image: url('../img/background-cat.jpg');" class="hero-box">
+               <div class="container">
+                  <div class="hero-text align-center">
+                     <h1>Каталог</h1>
+                  </div>
+               </div>
+            </div>
+            <!-- Statistics Box -->
+            <div class="container">
+                <div class="statistics-box">
+                <div class="statistics-item">
+                    
+                    <p class="title">Страница</p>
+                    
+                </div>
+
+                <div class="statistics-item">
+                    
+                    <p class="title">Находится</p>
+                    
+                </div>
+
+                <div class="statistics-item">
+                    
+                    <p class="title">На этапе</p>
+                    
+                </div>
+
+                <div class="statistics-item">
+                    <img src="../img/4.png" class="k1" width="100" height="100">
+                    <p class="title">Разработки</p>
+                    
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        
+       
+                
+    </main>
+    <footer>
+        <article>
+            <div>
+                <img src="../img/logo.png" class="left" height="100px"  />
+                <div class="footer1"> 
+                    
+                    <p class="footer-p"><br>Все права защищены и охраняются действующим законодательством РФ. <br>Администрация сайта не несет ответственности за содержание размещенных объявлений<br><br></p>
+                    <p class="footer-p">Наши контакты:<br>Тел. 89123727537<br>Vk https://vk.com/avocado26<br><br></p>
+                    <p class="footer-p">Наш адрес:<br>Республика Татарстан, г. Казань, ул. Товарищеская, д. 30 <br><br><br><br></p>
+                    <p class="footer-p">© 2023 АО «NGR».</p>
+                </div>
+                
+            </div>
+        </article>
+    </footer>
+</body>
+</html>
